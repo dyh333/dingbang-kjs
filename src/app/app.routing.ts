@@ -1,20 +1,19 @@
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
+
 export const routes: Routes = [
-	{ path: '', redirectTo: 'index', pathMatch: 'full' },
-	{
-		path: 'index',
-		loadChildren: './geone/feature/login/login.module#LoginModule'
+	{ 	
+		path: '', redirectTo: 'scope', pathMatch: 'full' 
+	// },{
+	// 	path: 'home',
+	// 	loadChildren: './home/home.module#HomeModule'
 	},{
-		path: 'dashboard',
-		loadChildren: './business/dashboard/dashboard.module#DashboardModule'
+		path: 'scope',
+		loadChildren: './scope/scope.module#ScopeModule'
 	},{
-		path: 'demo',
-		loadChildren: './business/demo/demo.module#DemoModule'
-	},{
-		path: 'grid',
-		loadChildren: './business/grid-layout/grid.module#GridModule'
+		path: 'contact',
+		loadChildren: './contact/contact.module#ContactModule'
 	}
 ];
 

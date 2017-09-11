@@ -1,0 +1,9 @@
+<div nz-row [nzType]="'flex'" [nzJustify]="'center'">
+    <div nz-col [nzSpan]="4">
+      <menu-component></menu-component>
+    </div>
+    <div nz-col [nzSpan]="12">
+        <abm-map #map [options]="options" (ready)="onReady($event)" style="height: 300px;"></abm-map>
+    </div>
+    
+  </div>

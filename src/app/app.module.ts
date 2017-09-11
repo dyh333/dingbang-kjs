@@ -19,7 +19,7 @@ import { AppComponent } from './app.component';
 		BrowserAnimationsModule,
 		
 		RouterModule,
-		// routing,
+		routing,
 
 		NgxSharedModule,
 		// AppTranslationModule,

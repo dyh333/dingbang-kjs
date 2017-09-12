@@ -1,0 +1,50 @@
+[
+	{
+		"id": "sjjz",
+		"path": "/scope/sjjz",
+		"icon": "ion-ios-chatboxes",
+		"title": "审计鉴证"
+	},
+	{
+		"id": "lzfw",
+		"path": "/scope/lzfw",
+		"icon": "ion-ios-chatboxes",
+		"title": "理账服务"
+	},
+	{
+		"id": "dljz",
+		"path": "/scope/dljz",
+		"icon": "ion-ios-chatboxes",
+		"title": "代理记账"
+	},
+	{
+		"id": "tzzx",
+		"path": "/scope/tzzx",
+		"icon": "ion-ios-chatboxes",
+		"title": "投资咨询"
+	},
+	{
+		"id": "swfw",
+		"path": "/scope/swfw",
+		"icon": "ion-ios-chatboxes",
+		"title": "税务服务"
+	},
+	{
+		"id": "jyfw",
+		"path": "/scope/jyfw",
+		"icon": "ion-ios-chatboxes",
+		"title": "交易服务"
+	},
+	{
+		"id": "glfw",
+		"path": "/scope/glfw",
+		"icon": "ion-ios-chatboxes",
+		"title": "管理服务"
+	},
+	{
+		"id": "fwwb",
+		"path": "/scope/fwwb",
+		"icon": "ion-ios-chatboxes",
+		"title": "服务外包"
+	}
+]

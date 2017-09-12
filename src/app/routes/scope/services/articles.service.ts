@@ -5,10 +5,10 @@ import 'rxjs/add/operator/catch';
 import 'rxjs/add/observable/throw';
 
 @Injectable()
-export class MenuService {
+export class ArticlesService {
     constructor(private httpClient: HttpClient) { }
     
-    loadMenu(url: string): Observable<any>{
+    loadArticle(url): Observable<any>{
         return this.httpClient.get(url).catch((err: any) => {
             return Observable.throw(err);
         });

@@ -12,19 +12,19 @@ import { MenuService } from './menu.service';
 
 export class MenuComponent implements OnInit {
     @Input()
-    private menuUrl: string;
-    private menu: Object;
+    menuUrl: string;
+    private _menu: Array<any>;
 
     constructor(private menuService: MenuService) { }
 
-    ngOnInit() { 
-        // this.menuService.loadMenu(this.menuUrl).subscribe({
-        //     next: (_menu) => {
-        //         this.menu = _menu;
-        //     },
-        //     error: (error) => {
-        //         console.log(error);
-        //     }
-        // })
+    ngOnInit() {
+        this.menuService.loadMenu(this.menuUrl).subscribe({
+            next: (menu) => {
+                this._menu = menu;
+            },
+            error: (error) => {
+                console.log(error);
+            }
+        })
     }
 }

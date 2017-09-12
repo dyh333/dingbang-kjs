@@ -3,8 +3,8 @@ import { AbmModule } from 'angular-baidu-maps';
 
 import { routing } from './contact.routing';
 
-import { NgxSharedModule } from '../ngx-shared/ngx-shared.module';
-import { SharedModule } from '../shared/shared.module';
+import { NgxSharedModule } from '../../ngx-shared/ngx-shared.module';
+import { SharedModule } from '../../shared/shared.module';
 
 import { ContactComponent } from './contact.component';
 

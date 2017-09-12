@@ -1,0 +1,9 @@
+:host ::ng-deep .ant-carousel .slick-slide {
+    text-align: center;
+    height: 480px;
+    overflow: hidden;
+  }
+div img {
+    height:100%;
+    width:100%;
+  }

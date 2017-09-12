@@ -1,5 +1,32 @@
 [
-    {
-        
-    }
+  {
+    "id": "home",
+    "path": "/home",
+    "icon": "ion-ios-chatboxes",
+    "title": "网站首页"
+  },
+  {
+    "id": "about",
+    "path": "/about",
+    "icon": "ion-ios-chatboxes",
+    "title": "关于鼎邦"
+  },
+  {
+    "id": "scope",
+    "path": "/scope",
+    "icon": "ion-ios-chatboxes",
+    "title": "服务范围"
+  },
+  {
+    "id": "partner",
+    "path": "/partner",
+    "icon": "ion-ios-chatboxes",
+    "title": "合作公司"
+  },
+  {
+    "id": "contact",
+    "path": "/contact",
+    "icon": "ion-ios-chatboxes",
+    "title": "联系我们"
+  }
 ]

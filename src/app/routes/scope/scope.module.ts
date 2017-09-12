@@ -2,10 +2,13 @@ import { NgModule } from '@angular/core';
 
 import { routing } from './scope.routing';
 
-import { NgxSharedModule } from '../ngx-shared/ngx-shared.module';
-import { SharedModule } from '../shared/shared.module';
+import { NgxSharedModule } from '../../ngx-shared/ngx-shared.module';
+import { SharedModule } from '../../shared/shared.module';
 
 import { ScopeComponent } from './scope.component';
+import { SjjzComponent, LzfwComponent } from './components';
+
+import { ArticlesService } from './services/articles.service';
 
 @NgModule({
 	imports: [
@@ -16,9 +19,11 @@ import { ScopeComponent } from './scope.component';
 	],
 	declarations: [
 		ScopeComponent,
+		SjjzComponent,
+		LzfwComponent,
 	],
 	providers: [
-		
+		ArticlesService,
 	]
 })
 

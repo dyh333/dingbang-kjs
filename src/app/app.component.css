@@ -1,47 +1,56 @@
-/* :host ::ng-deep .logo {
-  width: 120px;
-  height: 31px;
-  background: #333;
-  border-radius: 6px;
-  margin: 16px 24px 16px 0;
-  float: left;
-} */
-.ant-layout-header{
-  height: 80px;
-  line-height: 80px;
-  
+:host ::ng-deep .layout{
+  min-width: 1349px;
+  overflow: hidden;
+}
+.header{
+  height: 82px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index:20;
+  background-color: #B40309;
+  min-width: 1349px;
+  overflow: hidden;
+}
+.content{
+  padding-top:80px;
+  overflow: hidden;
 }
 .logo {
-  width: 50px;
-  height: 50px;
-  margin: 16px 16px 16px 100px;
+    width: 50px;
+    height: 50px;
+    margin: 16px 16px 16px 100px;
+    float: left;
+  }
+  .logo img{
+    width: 50px;
+    height: 50px;
+  }
+h1{
   float: left;
-}
-.logo img {
-  width: 50px;
-  height: 50px;
-}
-h1 {
-  float: left;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
-#tel {
-  height: 80px;
+#tel{
   word-wrap: break-word;
   display: block;
-  margin-right: 50px;
+  margin-left: 50px;
+  padding-left: 32px;
   float: right;
-  color: #ffffff;
-  line-height: 20px;
+  color: #FFFFFF;
+  line-height: 20px;  
+  background: url(../assets/img/logo/call-32.png) no-repeat left center;
 }
-#tel img {
-  height: 40px;
-  width: 40px;
+#tel img{
+  height: 30px;
+  width: 30px;
 }
-#telnum {
+#telnum{
   margin-left: 0;
 }
 .ant-layout-header {
-  padding: 0;
+    padding:0;
 }

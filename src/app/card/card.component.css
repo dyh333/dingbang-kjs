@@ -1,0 +1,17 @@
+:host ::ng-deep nz-card{
+    width: 285px;
+}
+:host ::ng-deep .ant-card-body{
+    padding: 0;
+}
+/* :host ::ng-deep .card-image{
+    width: 285px;
+} */
+.card-image img{
+    display: block;
+    width:"100%";
+}
+.card-title{
+    text-align: center;
+    padding: 10px 0;
+}

@@ -2,13 +2,12 @@ import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
 
-export const routes: Routes = [
-	{ 	
-		path: '', redirectTo: 'scope', pathMatch: 'full' 
+export const routes: Routes = [{ 	
+	// 	path: '', redirectTo: 'scope', pathMatch: 'full' 
+	// // },{
+	// // 	path: 'home',
+	// // 	loadChildren: './home/home.module#HomeModule'
 	// },{
-	// 	path: 'home',
-	// 	loadChildren: './home/home.module#HomeModule'
-	},{
 		path: 'scope',
 		loadChildren: './scope/scope.module#ScopeModule'
 	},{

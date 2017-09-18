@@ -5,6 +5,8 @@ import { SharedModule } from '../../shared/shared.module';
 import { routing } from './home.routing';
 
 import { HomeComponent } from './components/home.component';
+import { CardComponent } from './components/card/card.component';
+import { CardService } from './components/card/card.service';
 
 @NgModule({
     imports: [
@@ -14,7 +16,9 @@ import { HomeComponent } from './components/home.component';
         routing
     ],
     exports: [],
-    declarations: [HomeComponent],
-    providers: [],
+    declarations: [
+        HomeComponent,
+        CardComponent],
+    providers: [CardService],
 })
 export class HomeModule { }

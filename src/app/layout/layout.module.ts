@@ -4,12 +4,12 @@ import { SharedModule } from "../shared/shared.module";
 
 import { LayoutComponent } from "./layout.component";
 import { HeaderComponent } from "./header/header.component";
+// import { CardComponent } from "../card/card.component";
 
-import { MenuComponent } from "./menu/menu.component";
 
 @NgModule({
   imports: [NgxSharedModule, SharedModule],
-  declarations: [LayoutComponent, HeaderComponent, MenuComponent],
+  declarations: [LayoutComponent, HeaderComponent],
   exports: [LayoutComponent, HeaderComponent]
 })
 export class LayoutModule {}

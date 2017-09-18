@@ -11,8 +11,8 @@ import { LayoutModule } from "./layout/layout.module";
 import { AppComponent } from './app.component';
 
 import { CarouselComponent } from './carousel/carousel.component';
-import { MenuComponent } from './menu/menu.component';
-import { MenuService } from './menu/menu.service';
+// import { MenuComponent } from './menu/menu.component';
+// import { MenuService } from './menu/menu.service';
 import { CardComponent } from './card/card.component';
 import { CardService } from './card/card.service';
 
@@ -20,7 +20,7 @@ import { CardService } from './card/card.service';
   declarations: [
     AppComponent,
     CarouselComponent,
-    MenuComponent,
+    // MenuComponent,
     CardComponent
   ],
   imports: [
@@ -36,7 +36,7 @@ import { CardService } from './card/card.service';
 		// AppTranslationModule,
   ],
   providers: [
-    MenuService,
+    // MenuService,
     CardService
   ],
   bootstrap: [AppComponent]

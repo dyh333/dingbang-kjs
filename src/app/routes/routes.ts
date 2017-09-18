@@ -6,9 +6,11 @@ export const routes: Routes = [{
     path: '',
     component: LayoutComponent,
     children: [
-        { path: '', redirectTo: 'scope', pathMatch: 'full' },
+        { path: '', redirectTo: 'home', pathMatch: 'full' },
+        { path: 'home', loadChildren: './home/home.module#HomeModule' },
+        // { path: 'about', loadChildren: './about/about.module#AboutModule' },
         { path: 'scope', loadChildren: './scope/scope.module#ScopeModule' },
+        // { path: 'partner', loadChildren: './partner/partner.module#PartnerModule' },
+        // { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
     ]
 }];
-
-// export const routing = RouterModule.forChild(routes);

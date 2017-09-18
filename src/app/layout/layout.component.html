@@ -1,8 +1,23 @@
-<perfect-scrollbar [config]="{suppressScrollX: true}">
+<!-- <perfect-scrollbar [config]="{suppressScrollX: true}">
     <header-component>
     </header-component>
         
     <section class="content">
         <router-outlet></router-outlet>
     </section>
+</perfect-scrollbar> -->
+
+<perfect-scrollbar [config]="{suppressScrollX: true}">
+<nz-layout class="layout">
+    <nz-header class="header">
+        <header-component></header-component>
+    </nz-header>
+    <nz-content class="content">
+        <!-- <app-carousel></app-carousel>
+        <app-card></app-card> -->
+        
+        <router-outlet></router-outlet>
+    </nz-content>
+    <nz-footer style="text-align: center;">Ant Design ©2017 Implement By Angular</nz-footer>
+</nz-layout>
 </perfect-scrollbar>

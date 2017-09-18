@@ -1,0 +1,56 @@
+:host ::ng-deep .layout{
+    min-width: 1349px;
+    overflow: hidden;
+  }
+  .header{
+    height: 82px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index:20;
+    // background-color: #B40309;
+    min-width: 1349px;
+    overflow: hidden;
+  }
+  .content{
+    padding-top:80px;
+    overflow: hidden;
+  }
+  .logo {
+      width: 50px;
+      height: 50px;
+      margin: 16px 16px 16px 100px;
+      float: left;
+    }
+    .logo img{
+      width: 50px;
+      height: 50px;
+    }
+  h1{
+    float: left;
+    color: #FFFFFF;
+  }
+  
+  #tel{
+    word-wrap: break-word;
+    display: block;
+    margin-left: 50px;
+    padding-left: 32px;
+    float: right;
+    color: #FFFFFF;
+    line-height: 20px;  
+    background: url('../../assets/img/logo/call-32.png') no-repeat left center;
+  }
+  #tel img{
+    height: 30px;
+    width: 30px;
+  }
+  #telnum{
+    margin-left: 0;
+  }
+  .ant-layout-header {
+      padding:0;
+  }

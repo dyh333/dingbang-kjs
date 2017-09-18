@@ -8,7 +8,7 @@ import {
     MenuComponent,
     TabComponent,
     BacktopComponent,
-    CarouselComponent,
+    // CardComponent,
 } from './components';
 
 
@@ -17,7 +17,7 @@ const GEONE_COMPONENTS = [
     MenuComponent,
     TabComponent,
     BacktopComponent,
-    CarouselComponent,
+    // CardComponent,
 ];
 
 

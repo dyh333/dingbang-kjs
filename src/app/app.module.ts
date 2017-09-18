@@ -20,7 +20,9 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
-   
+    // CarouselComponent,
+    // MenuComponent,
+    // CardComponent
   ],
   imports: [
     HttpClientModule,

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderMenuService } from './header-menu.service';
 
 @Component({
-  selector: 'header-menu-component',
+  selector: 'header-menu',
   templateUrl: './header-menu.component.html',
   styleUrls: ['./header-menu.component.css'],
   providers: [

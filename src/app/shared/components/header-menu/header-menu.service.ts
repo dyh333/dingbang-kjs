@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 
-const menu_datastruct = './assets/config/menu.config.json';
+const menu_datastruct = './assets/config/menu_header.config.json';
 
 @Injectable()
 export class HeaderMenuService {

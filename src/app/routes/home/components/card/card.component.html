@@ -1,0 +1,18 @@
+<div style="background: #ECECEC;padding:100px;">  
+  <!-- <div nz-row [nzGutter]="8"> -->
+  <div nz-row >
+    <ng-container *ngFor ="let item of _cardData">  
+    <div nz-col [nzSpan]="6">
+        <nz-card>
+            <ng-template #body>
+                <div class="card-image">
+                <img  src="./assets/img/card/{{item.icon}}.jpg" alt="{{item.title}}"/>
+                </div>
+                <div class="card-title" >
+                    <h2>{{item.title}}</h2>
+                </div>
+            </ng-template>
+        </nz-card>
+      </div>
+    </ng-container>
+</div>

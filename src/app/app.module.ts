@@ -4,24 +4,23 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NgxSharedModule } from './ngx-shared/ngx-shared.module';
+import { CoreModule } from './core/core.module';
 import { RoutesModule } from "./routes/routes.module";
 import { LayoutModule } from "./layout/layout.module";
 
 // import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 
-import { CarouselComponent } from './carousel/carousel.component';
+// import { CarouselComponent } from './carousel/carousel.component';
 // import { MenuComponent } from './menu/menu.component';
 // import { MenuService } from './menu/menu.service';
-import { CardComponent } from './card/card.component';
-import { CardService } from './card/card.service';
+// import { CardComponent } from './card/card.component';
+// import { CardService } from './card/card.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarouselComponent,
-    // MenuComponent,
-    CardComponent
+   
   ],
   imports: [
     HttpClientModule,
@@ -29,6 +28,8 @@ import { CardService } from './card/card.service';
 		BrowserAnimationsModule,
     
     NgxSharedModule,
+
+    CoreModule,
     
 		LayoutModule,
     RoutesModule,
@@ -37,7 +38,7 @@ import { CardService } from './card/card.service';
   ],
   providers: [
     // MenuService,
-    CardService
+    // CardService
   ],
   bootstrap: [AppComponent]
 })

@@ -1,9 +1,19 @@
 <div nz-row [nzType]="'flex'" [nzJustify]="'center'">
     <div nz-col [nzSpan]="4">
-      <menu-component></menu-component>
+      <!-- <menu-component></menu-component> -->
     </div>
     <div nz-col [nzSpan]="12">
-        <abm-map #map [options]="options" (ready)="onReady($event)" style="height: 300px;"></abm-map>
+        <nz-tabset>
+            <nz-tab>
+                <ng-template #nzTabHeading>
+                    {{title}}
+                </ng-template>
+                <p>上海轩诚会计师事务所(普通合伙)</p>
+                <p>地址：上海市徐汇区冠生园路223-227号漕河泾产业园4幢2A层</p>
+                <abm-map #map [options]="options" (ready)="onReady($event)" style="height: 300px;"></abm-map>
+            </nz-tab>
+        </nz-tabset>
+        
     </div>
     
   </div>

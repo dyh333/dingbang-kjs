@@ -1,38 +1,32 @@
 [
-    {
-    "id": "index",
-    "path": "/elements",
+  {
+    "id": "home",
+    "path": "/home",
     "icon": "ion-ios-chatboxes",
     "title": "网站首页"
-    },
-    {
+  },
+  {
     "id": "about",
-    "path": "/elements",
+    "path": "/about",
     "icon": "ion-ios-chatboxes",
     "title": "关于轩诚"
-    },
-    {
-    "id": "service",
-    "path": "/elements",
+  },
+  {
+    "id": "scope",
+    "path": "/scope",
     "icon": "ion-ios-chatboxes",
     "title": "服务范围"
-    },
-    {
-    "id": "company",
-    "path": "/elements",
+  },
+  {
+    "id": "partner",
+    "path": "/partner",
     "icon": "ion-ios-chatboxes",
     "title": "合作公司"
-    },
-    {
-    "id": "message",
-    "path": "/elements",
-    "icon": "ion-ios-chatboxes",
-    "title": "在线留言"
-    },
-    {  
+  },
+  {
     "id": "contact",
-    "path": "/elements",
+    "path": "/contact",
     "icon": "ion-ios-chatboxes",
     "title": "联系我们"
-    }
+  }
 ]

@@ -8,9 +8,9 @@ export const routes: Routes = [{
     children: [
         { path: '', redirectTo: 'home', pathMatch: 'full' },
         { path: 'home', loadChildren: './home/home.module#HomeModule' },
-        // { path: 'about', loadChildren: './about/about.module#AboutModule' },
+        { path: 'about', loadChildren: './about/about.module#AboutModule' },
         { path: 'scope', loadChildren: './scope/scope.module#ScopeModule' },
-        // { path: 'partner', loadChildren: './partner/partner.module#PartnerModule' },
-        // { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
+        { path: 'partner', loadChildren: './partner/partner.module#PartnerModule' },
+        { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
     ]
 }];

@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef, Renderer2, OnInit } from '@angular/core';
-import { ArticlesService } from '../../services/articles.service';
+import { ArticlesService } from '../../../../core/services/articles.service';
 
 @Component({
     selector: 'sjjz-component',

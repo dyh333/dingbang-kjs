@@ -1,0 +1,11 @@
+<div nz-row [nzType]="'flex'" [nzJustify]="'center'">
+    <div nz-col [nzSpan]="4">
+        <div class="menu-title"><span>{{title}}</span></div>
+        <menu-component [menuUrl]="menuUrl"></menu-component>
+    </div>
+    <div nz-col [nzSpan]="12">
+        <!-- <tab-component [tabs]="selectedTab"></tab-component> -->
+        <router-outlet></router-outlet>
+    </div>
+
+</div>

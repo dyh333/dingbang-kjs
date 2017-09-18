@@ -8,7 +8,6 @@ import { SharedModule } from '../../shared/shared.module';
 import { ScopeComponent } from './scope.component';
 import { SjjzComponent, LzfwComponent } from './components';
 
-import { ArticlesService } from './services/articles.service';
 
 @NgModule({
 	imports: [
@@ -23,7 +22,6 @@ import { ArticlesService } from './services/articles.service';
 		LzfwComponent,
 	],
 	providers: [
-		ArticlesService,
 	]
 })
 

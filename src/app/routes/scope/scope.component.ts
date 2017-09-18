@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 	styleUrls: ['./scope.component.css']
 })
 export class ScopeComponent {
-	private _title = '服务范围';
+	title = '服务范围';
 
 	menuUrl = 'assets/config/scope.config.json';
 	

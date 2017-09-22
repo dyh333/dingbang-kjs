@@ -1,12 +1,16 @@
 <ul nz-menu>
 	<ng-container *ngFor="let item of _menu">
 		<li *ngIf="item.children" [nzOpen]="item.selected" nz-submenu>
-			<span title>{{item.title}}</span>
+			<span title>
+				<i class= {{item.icon}}  aria-hidden="true"></i>
+				{{item.title}}
+			</span>
 			<ul>
 				<li nz-menu-item *ngFor="let child of item.children" [nzSelected]="child.selected" [routerLink]="child.path">{{child.title}}</li>
 			</ul>
 		</li>
 		<li *ngIf="!item.children" [nzSelected]="item.selected" [routerLink]="item.path" nz-menu-item>
+			<i class= {{item.icon}} aria-hidden="true"></i>
 			{{item.title}}
 		</li>
 	</ng-container>

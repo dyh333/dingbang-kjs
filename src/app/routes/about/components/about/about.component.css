@@ -1,4 +1,14 @@
 .menu-title {
     height: 46px;
-    background: linear-gradient(rgba(255,0,0,1),rgba(255,0,0,0.3));
+    background: linear-gradient(#FF4F30,rgba(255,0,0,0.3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.menu-title span{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.cont{
+    margin-left: 50px;
+    }

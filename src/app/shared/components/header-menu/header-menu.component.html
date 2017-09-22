@@ -1,14 +1,14 @@
-<ul nz-menu  class="menu" [nzMode]="'horizontal'" >
+<ul nz-menu  class="menu" nzTheme='dark' [nzMode]="'horizontal'">
     <ng-container *ngFor="let item of _menuData">
         <li *ngIf="item.children" [nzOpen]="item.selected" nz-submenu>
             <span title>{{item.title}}</span>
             <ul>
               <li nz-menu-item *ngFor="let child of item.children" 
-              [nzSelected]="child.selected" [routerLink]="child.path" 
+               [routerLink]="child.path" 
               >{{child.title}}</li>
             </ul>
         </li>
-        <li *ngIf="!item.children" [nzSelected]="item.selected" [routerLink]="item.path" 
+        <li *ngIf="!item.children" [routerLink]="item.path"
        nz-menu-item>{{item.title}}</li>
     </ng-container>
 </ul> 

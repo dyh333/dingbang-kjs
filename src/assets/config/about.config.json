@@ -2,13 +2,13 @@
 	{
 		"id": "profile",
 		"path": "/about/profile",
-		"icon": "1",
+		"icon": "fa fa-chevron-right",
 		"title": "关于轩诚"
 	},
 	{
 		"id": "clients",
 		"path": "/about/clients",
-		"icon": "2",
+		"icon": "fa fa-chevron-right",
 		"title": "轩诚客户"
 	}
 ]

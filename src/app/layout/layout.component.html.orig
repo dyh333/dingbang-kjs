@@ -12,8 +12,13 @@
         <router-outlet></router-outlet>
     </nz-content>
     <nz-footer class="footer">
+<<<<<<< HEAD
+        <span>版权所有 COPYRIGHT(C)2017 上海轩诚会计师事务所(普通合伙)</span> 
+        <span>沪ICP备16054127号-1</span>
+=======
         <footer-component></footer-component>
          <!-- Design ©2017 Implement By Angular -->
+>>>>>>> 32264e392ebba0c401de2cfe6c2bf98683ff18f1
     </nz-footer>
 </nz-layout>
 </perfect-scrollbar>

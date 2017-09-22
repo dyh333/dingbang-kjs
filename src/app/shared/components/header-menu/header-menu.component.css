@@ -1,14 +1,22 @@
   .menu{
-    background: #B40309;    
-}
-ul{
-    line-height: 80px;
+    background: #FFFFFF;
 }
 li{
     font-size:120%;
-    color: #FFFFFF;
   }
-  
+  .ant-menu-dark .ant-menu-item{
+    color: #000000;
+  }
   .ant-menu-horizontal{
     border: 0;
+  }
+  .ant-menu-horizontal > .ant-menu-item:hover{
+    color: #DB5A3D;
+  }
+  .ant-menu-horizontal .ant-menu-item:focus{
+    outline: 0;
+  }
+  .ant-menu.ant-menu-dark .ant-menu-item-selected{
+    background-color: #FFFFFF;
+    color: #DB5A3D;
   }

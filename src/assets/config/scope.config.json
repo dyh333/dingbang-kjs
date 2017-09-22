@@ -2,56 +2,64 @@
 	{
 		"id": "sjjz",
 		"path": "/scope/sjjz",
-		"icon": "1",
+		"img": "1",
+		"icon":"fa fa-chevron-right",
 		"title": "审计鉴证",
 		"selected": true
 	},
 	{
 		"id": "lzfw",
 		"path": "/scope/lzfw",
-		"icon": "2",
+		"img": "2",
+		"icon":"fa fa-chevron-right",
 		"title": "理账服务",
 		"selected": false
 	},
 	{
 		"id": "dljz",
 		"path": "/scope/dljz",
-		"icon": "3",
+		"img": "3",
+		"icon":"fa fa-chevron-right",
 		"title": "代理记账",
 		"selected": false
 	},
 	{
 		"id": "tzzx",
 		"path": "/scope/tzzx",
-		"icon": "4",
+		"img": "4",
+		"icon":"fa fa-chevron-right",
 		"title": "投资咨询",
 		"selected": false
 	},
 	{
 		"id": "swfw",
 		"path": "/scope/swfw",
-		"icon": "5",
+		"img": "5",
+		"icon":"fa fa-chevron-right",
 		"title": "税务服务",
 		"selected": false
 	},
 	{
 		"id": "jyfw",
 		"path": "/scope/jyfw",
-		"icon": "6",
+		"img": "6",
+		"icon":"fa fa-chevron-right",
 		"title": "交易服务",
 		"selected": false
 	},
 	{
 		"id": "glfw",
 		"path": "/scope/glfw",
-		"icon": "7",
+		"img": "7",
+		"icon":"fa fa-chevron-right",
 		"title": "管理服务",
 		"selected": false
 	},
 	{
 		"id": "fwwb",
 		"path": "/scope/fwwb",
-		"icon": "8",
+		"img": "8",
+		"icon":"fa fa-chevron-right",
 		"title": "服务外包",
 		"selected": false
 	}

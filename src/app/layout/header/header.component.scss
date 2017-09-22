@@ -1,7 +1,11 @@
 .wrapper{
+  height: 82px;
   display: flex;
   align-items: center;
-  justify-content:space-between
+  justify-content:space-between;
+  border-bottom: 3px;
+  border-bottom-color: #DB5A3D;
+  border-bottom-style:solid;
 }
   .logo {
     display: flex;
@@ -14,17 +18,17 @@
       margin-right: 20px;      
     }
   h1{
-    color: #FFFFFF;
+    color: #DB5A3D;
   }
   
   #tel{
     word-wrap: break-word;
     display: block;
-    margin-left: 50px;
-    padding-left: 32px;
-    color: #FFFFFF;
-    line-height: 20px;  
-    background: url('../../../assets/img/logo/call-32.png') no-repeat left center;
+    margin-right: 50px;
+    padding-left: 30px;
+    color: #DB5A3D;
+    line-height: 15px;  
+    background: url('../../../assets/img/logo/call-30o.png') no-repeat left center;
   }
   #tel img{
     height: 30px;
@@ -33,3 +37,4 @@
   #telnum{
     margin-left: 0;
   }
+  

@@ -3,48 +3,56 @@
 		"id": "sjjz",
 		"path": "/scope/sjjz",
 		"icon": "1",
-		"title": "审计鉴证"
+		"title": "审计鉴证",
+		"selected": true
 	},
 	{
 		"id": "lzfw",
 		"path": "/scope/lzfw",
 		"icon": "2",
-		"title": "理账服务"
+		"title": "理账服务",
+		"selected": false
 	},
 	{
 		"id": "dljz",
 		"path": "/scope/dljz",
 		"icon": "3",
-		"title": "代理记账"
+		"title": "代理记账",
+		"selected": false
 	},
 	{
 		"id": "tzzx",
 		"path": "/scope/tzzx",
 		"icon": "4",
-		"title": "投资咨询"
+		"title": "投资咨询",
+		"selected": false
 	},
 	{
 		"id": "swfw",
 		"path": "/scope/swfw",
 		"icon": "5",
-		"title": "税务服务"
+		"title": "税务服务",
+		"selected": false
 	},
 	{
 		"id": "jyfw",
 		"path": "/scope/jyfw",
 		"icon": "6",
-		"title": "交易服务"
+		"title": "交易服务",
+		"selected": false
 	},
 	{
 		"id": "glfw",
 		"path": "/scope/glfw",
 		"icon": "7",
-		"title": "管理服务"
+		"title": "管理服务",
+		"selected": false
 	},
 	{
 		"id": "fwwb",
 		"path": "/scope/fwwb",
 		"icon": "8",
-		"title": "服务外包"
+		"title": "服务外包",
+		"selected": false
 	}
 ]

@@ -3,30 +3,35 @@
     "id": "home",
     "path": "/home",
     "icon": "ion-ios-chatboxes",
-    "title": "网站首页"
+    "title": "网站首页",
+    "selected": true
   },
   {
     "id": "about",
     "path": "/about",
     "icon": "ion-ios-chatboxes",
-    "title": "关于鼎邦"
+    "title": "关于鼎邦",
+    "selected": false
   },
   {
     "id": "scope",
     "path": "/scope",
     "icon": "ion-ios-chatboxes",
-    "title": "服务范围"
+    "title": "服务范围",
+    "selected": false
   },
   {
     "id": "partner",
     "path": "/partner",
     "icon": "ion-ios-chatboxes",
-    "title": "合作公司"
+    "title": "合作公司",
+    "selected": false
   },
   {
     "id": "contact",
     "path": "/contact",
     "icon": "ion-ios-chatboxes",
-    "title": "联系我们"
+    "title": "联系我们",
+    "selected": false
   }
 ]

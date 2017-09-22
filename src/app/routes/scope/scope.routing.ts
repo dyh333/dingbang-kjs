@@ -7,6 +7,7 @@ const routes: Routes = [{
     path: '',
     component: ScopeComponent,
     children: [
+        { path: '', redirectTo: 'sjjz', pathMatch: 'full' },
         { path: 'sjjz', component: SjjzComponent },
         { path: 'lzfw', component: LzfwComponent },
         { path: 'dljz', component: SjjzComponent },

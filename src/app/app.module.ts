@@ -8,21 +8,12 @@ import { CoreModule } from './core/core.module';
 import { RoutesModule } from "./routes/routes.module";
 import { LayoutModule } from "./layout/layout.module";
 
-// import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 
-// import { CarouselComponent } from './carousel/carousel.component';
-// import { MenuComponent } from './menu/menu.component';
-// import { MenuService } from './menu/menu.service';
-// import { CardComponent } from './card/card.component';
-// import { CardService } from './card/card.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // CarouselComponent,
-    // MenuComponent,
-    // CardComponent
   ],
   imports: [
     HttpClientModule,
@@ -39,8 +30,6 @@ import { AppComponent } from './app.component';
 		// AppTranslationModule,
   ],
   providers: [
-    // MenuService,
-    // CardService
   ],
   bootstrap: [AppComponent]
 })

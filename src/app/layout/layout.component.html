@@ -4,14 +4,16 @@
         <header-component></header-component>
     </nz-header>
     <nz-content class="content">
-        <nz-carousel [nzAutoPlay]="true">
+        <nz-carousel [nzEffect]="'fade'" [nzAutoPlay]="true">
             <div class="carousel" nz-carousel-content *ngFor="let index of array">
-                <img src="/assets/img/carousel/{{index}}.jpg">
+                <img src="./assets/img/carousel/{{index}}.jpg">
             </div>
         </nz-carousel>
         <router-outlet></router-outlet>
-        <!-- <app-card></app-card> -->
     </nz-content>
-    <nz-footer style="text-align: center;">Ant Design ©2017 Implement By Angular</nz-footer>
+    <nz-footer class="footer">
+        <span>版权所有 COPYRIGHT(C)2017 上海轩诚会计师事务所(普通合伙)</span> 
+        <span>沪ICP备16054127号-1</span>
+    </nz-footer>
 </nz-layout>
 </perfect-scrollbar>

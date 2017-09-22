@@ -1,24 +1,30 @@
+.header {
+  height: 82px;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  background-color: #b40309;
+  min-width: 1349px;
+}
+.content {
+  padding-top: 80px;
+  overflow: hidden;
+}
+.ant-layout-header {
+  padding: 0;
+}
+:host ::ng-deep .ant-carousel .slick-slide {
+  height: 480px;
+  overflow: hidden;
+}
+.carousel img {
+  height: 100%;
+  width: 100%;
+}
 
-  .header{
-    height: 82px;
-    width: 100%;
-    position: fixed;
-    z-index:20;
-    background-color: #B40309;
-    min-width: 1349px;
-  }
-  .content{
-    padding-top:80px;
-    overflow: hidden;
-  }
-  .ant-layout-header {
-      padding:0;
-  }
-  :host ::ng-deep .ant-carousel .slick-slide {
-    height: 480px;
-    overflow: hidden;
-  }
-  .carousel img{
-    height:100%;
-    width:100%;
-  }
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b40309;
+}

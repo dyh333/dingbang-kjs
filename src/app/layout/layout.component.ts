@@ -7,12 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class LayoutComponent implements OnInit {
-    array = [ 1 ];
-    constructor() { }
+    array = [ 1, 2, 3, 4, 5 ];
 
     ngOnInit() { 
-        setTimeout(_ => {
-            this.array = [ 1, 2, 3, 4, 5 ];
-          }, 500);
+        
     }
 }

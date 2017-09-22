@@ -4,11 +4,11 @@
             <span title>{{item.title}}</span>
             <ul>
               <li nz-menu-item *ngFor="let child of item.children" 
-              [nzSelected]="child.selected"
+              [nzSelected]="child.selected" [routerLink]="child.path" 
               >{{child.title}}</li>
             </ul>
         </li>
-        <li *ngIf="!item.children" [nzSelected]="item.selected"
+        <li *ngIf="!item.children" [nzSelected]="item.selected" [routerLink]="item.path" 
        nz-menu-item>{{item.title}}</li>
     </ng-container>
 </ul> 

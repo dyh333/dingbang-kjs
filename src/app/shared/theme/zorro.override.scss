@@ -1,0 +1,10 @@
+// 小标题样式覆盖ant
+:host ::ng-deep .ant-tabs-nav .ant-tabs-tab:hover{
+    color: #DB5A3D;
+}
+:host ::ng-deep .ant-tabs-ink-bar{
+    background-color: #DB5A3D; 
+}
+:host ::ng-deep .ant-tabs-nav .ant-tabs-tab-active {
+    color: #DB5A3D;  
+}

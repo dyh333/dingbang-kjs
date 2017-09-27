@@ -1,21 +1,21 @@
 import { Routes, RouterModule }  from '@angular/router';
 
 import { ScopeComponent } from './scope.component';
-import { SjjzComponent, LzfwComponent } from './components';
+import { SjywComponent, SwywComponent, YzywComponent, ZcpgComponent, DljzComponent, ZxpxComponent } from './components';
 
 const routes: Routes = [{
     path: '',
     component: ScopeComponent,
     children: [
-        { path: '', redirectTo: 'sjjz', pathMatch: 'full' },
-        { path: 'sjjz', component: SjjzComponent },
-        { path: 'lzfw', component: LzfwComponent },
-        { path: 'dljz', component: SjjzComponent },
-        { path: 'tzzx', component: SjjzComponent },
-        { path: 'swfw', component: SjjzComponent },
-        { path: 'jyfw', component: SjjzComponent },
-        { path: 'glfw', component: SjjzComponent },
-        { path: 'fwwb', component: SjjzComponent },
+        { path: '', redirectTo: 'sjyw', pathMatch: 'full' },
+        { path: 'sjyw', component: SjywComponent },
+        { path: 'swyw', component: SwywComponent },
+        { path: 'yzyw', component: YzywComponent },
+        { path: 'zcpg', component: ZcpgComponent },
+        { path: 'dljz', component: DljzComponent },
+        { path: 'zxpx', component: ZxpxComponent },
+        { path: 'glfw', component: SjywComponent },
+        { path: 'fwwb', component: SjywComponent },
     ]
 }];
 

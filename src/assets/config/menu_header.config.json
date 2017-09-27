@@ -18,10 +18,10 @@
     "title": "服务范围"
   },
   {
-    "id": "partner",
-    "path": "/partner",
+    "id": "recruitment",
+    "path": "/recruitment",
     "icon": "ion-ios-chatboxes",
-    "title": "合作公司"
+    "title": "人才招聘"
   },
   {
     "id": "contact",

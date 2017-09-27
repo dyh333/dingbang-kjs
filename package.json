@@ -23,7 +23,7 @@
     "@angular/router": "^4.2.4",
     "angular-baidu-maps": "^1.0.0",
     "core-js": "^2.4.1",
-    "font-awesome": "4.7.0",
+    "font-awesome": "^4.7.0",
     "lodash": "^4.17.4",
     "ng-zorro-antd": "^0.5.0",
     "ngx-perfect-scrollbar": "^4.6.2",

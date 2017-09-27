@@ -12,6 +12,7 @@ export class TranslatorService {
     }
 	
 	use(lang: string = null) {
+		
 		this.translate.use(lang || this.translate.getDefaultLang());
 	}
 

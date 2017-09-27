@@ -20,8 +20,10 @@
   h1{
     color: #DB5A3D;
   }
-  
-  #tel{
+  .language a{
+    color: #000000;
+  }
+  .tel{
     word-wrap: break-word;
     display: block;
     margin-right: 50px;
@@ -30,11 +32,7 @@
     line-height: 15px;  
     background: url('../../../assets/img/logo/call-30o.png') no-repeat left center;
   }
-  #tel img{
-    height: 30px;
-    width: 30px;
-  }
-  #telnum{
+  .telnum{
     margin-left: 0;
   }
   

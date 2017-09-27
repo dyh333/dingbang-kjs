@@ -11,6 +11,9 @@ export class HeaderComponent implements OnInit {
     constructor(private tsServ: TranslatorService) { }
 
     ngOnInit() { 
-        this.tsServ.use('en-US');
+    }
+
+    translate(language){
+        this.tsServ.use(language);
     }
 }

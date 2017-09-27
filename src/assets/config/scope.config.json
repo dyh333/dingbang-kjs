@@ -4,7 +4,7 @@
 		"path": "/scope/sjyw",
 		"img": "1",
 		"icon":"fa fa-chevron-right",
-		"title": "审计业务",
+		"title": "scope-sjyw",
 		"selected": true
 	},
 	{
@@ -12,7 +12,7 @@
 		"path": "/scope/swyw",
 		"img": "2",
 		"icon":"fa fa-chevron-right",
-		"title": "税务业务",
+		"title": "scope-swyw",
 		"selected": false
 	},
 	{
@@ -20,7 +20,7 @@
 		"path": "/scope/yzyw",
 		"img": "3",
 		"icon":"fa fa-chevron-right",
-		"title": "验资业务",
+		"title": "scope-yzyw",
 		"selected": false
 	},
 	{
@@ -28,7 +28,7 @@
 		"path": "/scope/zcpg",
 		"img": "4",
 		"icon":"fa fa-chevron-right",
-		"title": "资产评估",
+		"title": "scope-zcpg",
 		"selected": false
 	},
 	{
@@ -36,7 +36,7 @@
 		"path": "/scope/dljz",
 		"img": "5",
 		"icon":"fa fa-chevron-right",
-		"title": "代理记账",
+		"title": "scope-dljz",
 		"selected": false
 	},
 	{
@@ -44,7 +44,15 @@
 		"path": "/scope/zxpx",
 		"img": "6",
 		"icon":"fa fa-chevron-right",
-		"title": "咨询培训",
+		"title": "scope-zxpx",
+		"selected": false
+	},
+	{
+		"id": "qtfw",
+		"path": "/scope/qtfw",
+		"img": "7",
+		"icon":"fa fa-chevron-right",
+		"title": "scope-qtfw",
 		"selected": false
 	}
 ]

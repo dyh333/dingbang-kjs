@@ -4,3 +4,4 @@ export * from './yzyw';
 export * from './zcpg';
 export * from './dljz';
 export * from './zxpx';
+export * from './qtfw';

@@ -1,0 +1,55 @@
+.card >div{
+    background-color: white;
+    height: 400px;
+    :hover{
+        cursor: pointer;
+        .more{
+            color: #FA3103;
+            cursor: pointer;
+        }
+        .title{
+            color: #838383;
+            cursor: pointer;
+        }
+    }
+}
+.card >div>div{
+    height: 200px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img1{
+    background: url("/assets/img/home/index1.png") no-repeat center center;
+}
+#img2{
+    background: url("/assets/img/home/index2.png") no-repeat center center;
+}
+#img3{
+    background: url("/assets/img/home/index3.png") no-repeat center center;
+}
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+}
+// .title:hover{
+//     color: #838383;
+//     cursor: pointer;
+// }
+.para{
+    text-align: center;
+    margin: 10px 0;
+}
+.more{
+    font-size: 1.1em;
+    color: #DB5A3D;
+    font-weight: bold;
+}
+// .more:hover{
+//     color: #FA3103;
+//     cursor: pointer;
+// }

@@ -46,5 +46,13 @@
 		"icon":"fa fa-chevron-right",
 		"title": "咨询培训",
 		"selected": false
+	},
+	{
+		"id": "qtfw",
+		"path": "/scope/qtfw",
+		"img": "7",
+		"icon":"fa fa-chevron-right",
+		"title": "其他服务",
+		"selected": false
 	}
 ]

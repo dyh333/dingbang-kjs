@@ -1,7 +1,7 @@
 import { Routes, RouterModule }  from '@angular/router';
 
 import { ScopeComponent } from './scope.component';
-import { SjywComponent, SwywComponent, YzywComponent, ZcpgComponent, DljzComponent, ZxpxComponent } from './components';
+import { SjywComponent, SwywComponent, YzywComponent, ZcpgComponent, DljzComponent, ZxpxComponent, QtfwComponent } from './components';
 
 const routes: Routes = [{
     path: '',
@@ -14,7 +14,7 @@ const routes: Routes = [{
         { path: 'zcpg', component: ZcpgComponent },
         { path: 'dljz', component: DljzComponent },
         { path: 'zxpx', component: ZxpxComponent },
-        { path: 'glfw', component: SjywComponent },
+        { path: 'qtfw', component: QtfwComponent },
         { path: 'fwwb', component: SjywComponent },
     ]
 }];

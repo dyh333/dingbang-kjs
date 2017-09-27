@@ -11,6 +11,7 @@ import { YzywComponent } from './components/yzyw/yzyw.component';
 import { ZcpgComponent } from './components/zcpg/zcpg.component';
 import { DljzComponent } from './components/dljz/dljz.component';
 import { ZxpxComponent } from './components/zxpx/zxpx.component';
+import { QtfwComponent } from './components/qtfw/qtfw.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ZxpxComponent } from './components/zxpx/zxpx.component';
 		ZcpgComponent,
 		DljzComponent,
 		ZxpxComponent,
+		QtfwComponent,
 	],
 	providers: [
 	]

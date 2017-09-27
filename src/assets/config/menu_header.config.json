@@ -3,13 +3,13 @@
     "id": "home",
     "path": "/home",
     "icon": "ion-ios-chatboxes",
-    "title": "网站首页"
+    "title": "home"
   },
   {
     "id": "about",
     "path": "/about",
     "icon": "ion-ios-chatboxes",
-    "title": "关于轩诚"
+    "title": "about"
   },
   {
     "id": "scope",

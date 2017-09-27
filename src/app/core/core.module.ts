@@ -2,12 +2,14 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { throwIfAlreadyLoaded } from "./module-import-guard";
 
 import { ArticlesService } from "./services/articles.service";
+import { TranslatorService } from "./translator/translator.service";
 
 @NgModule({
     imports: [
     ],
     providers: [
-        ArticlesService
+        ArticlesService,
+        TranslatorService
     ],
     declarations: [
     ],

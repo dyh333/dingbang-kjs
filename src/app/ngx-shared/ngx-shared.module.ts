@@ -3,7 +3,7 @@ import { CommonModule } from "@angular/common";
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 
-// import { TranslateModule } from "@ngx-translate/core";
+import { TranslateModule } from "@ngx-translate/core";
 import { PerfectScrollbarModule } from "ngx-perfect-scrollbar";
 import { NgZorroAntdModule } from "ng-zorro-antd";
 
@@ -24,7 +24,7 @@ import { NgZorroAntdModule } from "ng-zorro-antd";
     RouterModule,
     ReactiveFormsModule,
 
-    // TranslateModule,
+    TranslateModule,
     PerfectScrollbarModule,
     NgZorroAntdModule
   ]

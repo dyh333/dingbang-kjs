@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
     constructor() { }
 
-    title = '关于轩诚';
+    title = 'about';
     
     menuUrl = 'assets/config/about.config.json';
 

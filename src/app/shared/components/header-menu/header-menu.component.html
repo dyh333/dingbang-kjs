@@ -5,10 +5,10 @@
             <ul>
               <li nz-menu-item *ngFor="let child of item.children" 
                [routerLink]="child.path" 
-              >{{child.title}}</li>
+              >{{child.title | translate}}</li>
             </ul>
         </li>
         <li *ngIf="!item.children" [routerLink]="item.path"
-       nz-menu-item>{{item.title}}</li>
+       nz-menu-item>{{item.title | translate}}</li>
     </ng-container>
 </ul> 

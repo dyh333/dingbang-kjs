@@ -3,7 +3,7 @@
 		<li *ngIf="item.children" [nzOpen]="item.selected" nz-submenu>
 			<span title>
 				<i class= {{item.icon}}  aria-hidden="true"></i>
-				{{item.title}}
+				{{item.title | translate }}
 			</span>
 			<ul>
 				<li nz-menu-item *ngFor="let child of item.children" [nzSelected]="child.selected" [routerLink]="child.path">{{child.title}}</li>
@@ -11,7 +11,7 @@
 		</li>
 		<li *ngIf="!item.children" [nzSelected]="item.selected" [routerLink]="item.path" nz-menu-item>
 			<i class= {{item.icon}} aria-hidden="true"></i>
-			{{item.title}}
+			{{item.title | translate }}
 		</li>
 	</ng-container>
 </ul>

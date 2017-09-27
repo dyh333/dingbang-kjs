@@ -1,36 +1,34 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { HttpClientModule } from "@angular/common/http";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
-import { NgxSharedModule } from './ngx-shared/ngx-shared.module';
-import { CoreModule } from './core/core.module';
+import { NgxSharedModule } from "./ngx-shared/ngx-shared.module";
+import { TranslationModule } from './translation/translation.module';
+import { CoreModule } from "./core/core.module";
 import { RoutesModule } from "./routes/routes.module";
 import { LayoutModule } from "./layout/layout.module";
 
-import { AppComponent } from './app.component';
-
+import { AppComponent } from "./app.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-  ],
+  declarations: [AppComponent],
   imports: [
     HttpClientModule,
-		BrowserModule,
-		BrowserAnimationsModule,
-    
+    BrowserModule,
+    BrowserAnimationsModule,
+
     NgxSharedModule,
 
     CoreModule,
-    
-		LayoutModule,
+
+    LayoutModule,
     RoutesModule,
 
-		// AppTranslationModule,
+    // AppTranslationModule,
+    TranslationModule
   ],
-  providers: [
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

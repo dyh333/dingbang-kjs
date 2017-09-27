@@ -3,30 +3,30 @@
     "id": "home",
     "path": "/home",
     "icon": "ion-ios-chatboxes",
-    "title": "网站首页"
+    "title": "home"
   },
   {
     "id": "about",
     "path": "/about",
     "icon": "ion-ios-chatboxes",
-    "title": "关于轩诚"
+    "title": "about"
   },
   {
     "id": "scope",
     "path": "/scope",
     "icon": "ion-ios-chatboxes",
-    "title": "服务范围"
+    "title": "scope"
   },
   {
     "id": "recruitment",
     "path": "/recruitment",
     "icon": "ion-ios-chatboxes",
-    "title": "人才招聘"
+    "title": "recruitment"
   },
   {
     "id": "contact",
     "path": "/contact",
     "icon": "ion-ios-chatboxes",
-    "title": "联系我们"
+    "title": "contact"
   }
 ]

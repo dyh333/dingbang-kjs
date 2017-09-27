@@ -12,7 +12,7 @@ export class ProfileComponent implements OnInit {
     @ViewChild('section')
     private sectionEl: ElementRef;
 
-    title = '轩诚简介';
+    // title = '轩诚简介';
     article: any = {};
 
     constructor(private renderer: Renderer2, private articlesService: ArticlesService) { }

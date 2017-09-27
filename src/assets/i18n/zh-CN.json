@@ -1,0 +1,19 @@
+{
+    "home": "网站首页",
+    "about": "关于鼎邦",
+    "scope": "服务范围",
+    "partner":"合作公司",
+    "recruitment":"人才招聘",
+    "contact":"联系我们",
+
+    "profile":"鼎邦简介",    
+    "clients":"鼎邦客户",
+    
+    "scope-sjyw": "审计业务",
+    "scope-swyw": "税务业务",
+    "scope-yzyw": "验资业务",
+    "scope-zcpg": "资产评估",
+    "scope-dljz": "代理记账",
+    "scope-zxpx": "咨询培训",
+    "scope-qtfw": "其他服务"
+}

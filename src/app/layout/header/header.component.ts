@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslatorService } from '../../core/translator/translator.service';
 
 @Component({
     selector: 'header-component',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class HeaderComponent implements OnInit {
-    constructor() { }
+    constructor(private tsServ: TranslatorService) { }
 
-    ngOnInit() { }
+    ngOnInit() { 
+    }
+
+    translate(language){
+        this.tsServ.use(language);
+    }
 }

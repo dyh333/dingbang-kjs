@@ -1,66 +1,50 @@
 [
 	{
-		"id": "sjjz",
-		"path": "/scope/sjjz",
+		"id": "sjyw",
+		"path": "/scope/sjyw",
 		"img": "1",
 		"icon":"fa fa-chevron-right",
-		"title": "审计鉴证",
+		"title": "审计业务",
 		"selected": true
 	},
 	{
-		"id": "lzfw",
-		"path": "/scope/lzfw",
+		"id": "swyw",
+		"path": "/scope/swyw",
 		"img": "2",
 		"icon":"fa fa-chevron-right",
-		"title": "理账服务",
+		"title": "税务业务",
+		"selected": false
+	},
+	{
+		"id": "yzyw",
+		"path": "/scope/yzyw",
+		"img": "3",
+		"icon":"fa fa-chevron-right",
+		"title": "验资业务",
+		"selected": false
+	},
+	{
+		"id": "zcpg",
+		"path": "/scope/zcpg",
+		"img": "4",
+		"icon":"fa fa-chevron-right",
+		"title": "资产评估",
 		"selected": false
 	},
 	{
 		"id": "dljz",
 		"path": "/scope/dljz",
-		"img": "3",
+		"img": "5",
 		"icon":"fa fa-chevron-right",
 		"title": "代理记账",
 		"selected": false
 	},
 	{
-		"id": "tzzx",
-		"path": "/scope/tzzx",
-		"img": "4",
-		"icon":"fa fa-chevron-right",
-		"title": "投资咨询",
-		"selected": false
-	},
-	{
-		"id": "swfw",
-		"path": "/scope/swfw",
-		"img": "5",
-		"icon":"fa fa-chevron-right",
-		"title": "税务服务",
-		"selected": false
-	},
-	{
-		"id": "jyfw",
-		"path": "/scope/jyfw",
+		"id": "zxpx",
+		"path": "/scope/zxpx",
 		"img": "6",
 		"icon":"fa fa-chevron-right",
-		"title": "交易服务",
-		"selected": false
-	},
-	{
-		"id": "glfw",
-		"path": "/scope/glfw",
-		"img": "7",
-		"icon":"fa fa-chevron-right",
-		"title": "管理服务",
-		"selected": false
-	},
-	{
-		"id": "fwwb",
-		"path": "/scope/fwwb",
-		"img": "8",
-		"icon":"fa fa-chevron-right",
-		"title": "服务外包",
+		"title": "咨询培训",
 		"selected": false
 	}
 ]

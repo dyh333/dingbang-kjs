@@ -6,7 +6,11 @@ import { NgxSharedModule } from '../../ngx-shared/ngx-shared.module';
 import { SharedModule } from '../../shared/shared.module';
 
 import { ScopeComponent } from './scope.component';
-import { SjjzComponent, LzfwComponent } from './components';
+import { SjywComponent, SwywComponent } from './components';
+import { YzywComponent } from './components/yzyw/yzyw.component';
+import { ZcpgComponent } from './components/zcpg/zcpg.component';
+import { DljzComponent } from './components/dljz/dljz.component';
+import { ZxpxComponent } from './components/zxpx/zxpx.component';
 
 
 @NgModule({
@@ -18,8 +22,12 @@ import { SjjzComponent, LzfwComponent } from './components';
 	],
 	declarations: [
 		ScopeComponent,
-		SjjzComponent,
-		LzfwComponent,
+		SjywComponent,
+		SwywComponent,
+		YzywComponent,
+		ZcpgComponent,
+		DljzComponent,
+		ZxpxComponent,
 	],
 	providers: [
 	]

@@ -13,7 +13,7 @@ import { MenuService } from './menu.service';
 export class MenuComponent implements OnInit {
     @Input()
     menuUrl: string;
-    private _menu: Array<any>;
+    _menu: Array<any>;
 
     constructor(private menuService: MenuService) { }
 

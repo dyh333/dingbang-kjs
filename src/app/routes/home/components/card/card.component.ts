@@ -7,7 +7,7 @@ import { CardService } from './card.service';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
-private _cardData: Object;
+ _cardData: Object;
   constructor(private service: CardService) { }
 
   ngOnInit() {

@@ -10,7 +10,7 @@ import { HeaderMenuService } from './header-menu.service';
   ]
 })
 export class HeaderMenuComponent implements OnInit {
-  private _menuData: Object;
+   _menuData: Object;
 
   constructor(private service: HeaderMenuService) { }
 

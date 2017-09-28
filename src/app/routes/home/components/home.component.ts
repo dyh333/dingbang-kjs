@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class HomeComponent implements OnInit {
+    sjyw="scope-sjyw";
+    swyw="scope-swyw";
+    yzyw="scope-yzyw";
+    more = "more";
     constructor() { }
 
     ngOnInit() { }

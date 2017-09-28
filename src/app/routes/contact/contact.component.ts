@@ -11,7 +11,7 @@ declare const BMap: any;
 export class ContactComponent {
     @ViewChild('map') mapComp: AbmComponent;
     
-    title = "联系我们";
+    title = "contact";
 	
 	private _map: any;
     onReady(map: any) {

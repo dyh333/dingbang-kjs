@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class RecruitmentComponent implements OnInit {
     constructor() { }
 
-    title = "人才招聘";
+    title = "recruitment";
 
     ngOnInit() { }
 }

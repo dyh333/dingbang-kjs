@@ -1,0 +1,23 @@
+{
+    "home": "HOME",
+    "about": "ABOUT",
+    "scope": "SCOPE",
+    "partner":"PARTNER",
+    "recruitment":"RECRUITMENT",
+    "contact":"CONTACT",
+
+    "profile":"PROFILE",
+    "clients":"CLIENTS",
+
+    "scope-sjyw": "AUDIT",
+    "scope-swyw": "TAX",
+    "scope-yzyw": "VERIFICATION",
+    "scope-zcpg": "ASSET EVALUATION",
+    "scope-dljz": "BOOKKEEPING",
+    "scope-zxpx": "CONSULTING",
+    "scope-qtfw": "OTHER",
+    
+    "more":"MORE"
+
+    
+}

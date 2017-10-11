@@ -1,0 +1,58 @@
+[
+	{
+		"id": "sjyw",
+		"path": "/scope/sjyw",
+		"img": "1",
+		"icon":"fa fa-chevron-right",
+		"title": "scope-sjyw",
+		"selected": true
+	},
+	{
+		"id": "swyw",
+		"path": "/scope/swyw",
+		"img": "2",
+		"icon":"fa fa-chevron-right",
+		"title": "scope-swyw",
+		"selected": false
+	},
+	{
+		"id": "yzyw",
+		"path": "/scope/yzyw",
+		"img": "3",
+		"icon":"fa fa-chevron-right",
+		"title": "scope-yzyw",
+		"selected": false
+	},
+	{
+		"id": "zcpg",
+		"path": "/scope/zcpg",
+		"img": "4",
+		"icon":"fa fa-chevron-right",
+		"title": "scope-zcpg",
+		"selected": false
+	},
+	{
+		"id": "dljz",
+		"path": "/scope/dljz",
+		"img": "5",
+		"icon":"fa fa-chevron-right",
+		"title": "scope-dljz",
+		"selected": false
+	},
+	{
+		"id": "zxpx",
+		"path": "/scope/zxpx",
+		"img": "6",
+		"icon":"fa fa-chevron-right",
+		"title": "scope-zxpx",
+		"selected": false
+	},
+	{
+		"id": "qtfw",
+		"path": "/scope/qtfw",
+		"img": "7",
+		"icon":"fa fa-chevron-right",
+		"title": "scope-qtfw",
+		"selected": false
+	}
+]

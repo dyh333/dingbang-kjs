@@ -1,0 +1,32 @@
+[
+  {
+    "id": "home",
+    "path": "/home",
+    "icon": "ion-ios-chatboxes",
+    "title": "home"
+  },
+  {
+    "id": "about",
+    "path": "/about",
+    "icon": "ion-ios-chatboxes",
+    "title": "about"
+  },
+  {
+    "id": "scope",
+    "path": "/scope",
+    "icon": "ion-ios-chatboxes",
+    "title": "scope"
+  },
+  {
+    "id": "recruitment",
+    "path": "/recruitment",
+    "icon": "ion-ios-chatboxes",
+    "title": "recruitment"
+  },
+  {
+    "id": "contact",
+    "path": "/contact",
+    "icon": "ion-ios-chatboxes",
+    "title": "contact"
+  }
+]

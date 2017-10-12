@@ -5,3 +5,4 @@ interface NodeModule {
 }
 
 declare var _: any;
+declare var postal: any;

@@ -3,30 +3,35 @@
     "id": "home",
     "path": "/home",
     "icon": "ion-ios-chatboxes",
-    "title": "home"
+    "title": "home",
+    "selected": true
   },
   {
     "id": "about",
     "path": "/about",
     "icon": "ion-ios-chatboxes",
-    "title": "about"
+    "title": "about",
+    "selected": false
   },
   {
     "id": "scope",
     "path": "/scope",
     "icon": "ion-ios-chatboxes",
-    "title": "scope"
+    "title": "scope",
+    "selected": false
   },
   {
     "id": "recruitment",
     "path": "/recruitment",
     "icon": "ion-ios-chatboxes",
-    "title": "recruitment"
+    "title": "recruitment",
+    "selected": false
   },
   {
     "id": "contact",
     "path": "/contact",
     "icon": "ion-ios-chatboxes",
-    "title": "contact"
+    "title": "contact",
+    "selected": false
   }
 ]

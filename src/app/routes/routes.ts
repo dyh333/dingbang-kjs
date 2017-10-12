@@ -1,4 +1,4 @@
-import { Routes, RouterModule }  from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
 import { LayoutComponent } from "../layout/layout.component";
 
@@ -12,6 +12,6 @@ export const routes: Routes = [{
         { path: 'scope', loadChildren: './scope/scope.module#ScopeModule' },
         { path: 'partner', loadChildren: './partner/partner.module#PartnerModule' },
         { path: 'recruitment', loadChildren: './recruitment/recruitment.module#RecruitmentModule' },
-        { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
+        { path: 'contact', loadChildren: './contact/contact.module#ContactModule' }
     ]
 }];

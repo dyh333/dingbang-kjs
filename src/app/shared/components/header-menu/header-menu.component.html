@@ -3,12 +3,12 @@
         <li *ngIf="item.children" [nzOpen]="item.selected" nz-submenu>
             <span title>{{item.title}}</span>
             <ul>
-              <li nz-menu-item *ngFor="let child of item.children" 
+              <li nz-menu-item *ngFor="let child of item.children" [nzSelected]="child.selected"
                [routerLink]="child.path" 
               >{{child.title | translate}}</li>
             </ul>
         </li>
-        <li *ngIf="!item.children" [routerLink]="item.path"
+        <li *ngIf="!item.children" [nzSelected]="item.selected"  [routerLink]="item.path"
        nz-menu-item>{{item.title | translate}}</li>
     </ng-container>
 </ul> 

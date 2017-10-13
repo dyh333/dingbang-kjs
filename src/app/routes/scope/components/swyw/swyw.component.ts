@@ -26,9 +26,6 @@ export class SwywComponent implements OnInit {
                 console.log(error);
             }
         })
-
-
-        postal.channel('LEFT_MENU').publish('menu.selected', 'swyw');
         
     }
 }

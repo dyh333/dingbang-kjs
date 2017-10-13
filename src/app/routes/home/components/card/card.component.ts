@@ -13,7 +13,7 @@ export class CardComponent implements OnInit {
   ngOnInit() {
     this.service.loadCard().subscribe({
       next: (cardData) => {
-        console.log(cardData);
+        // console.log(cardData);
         this._cardData = cardData;
       }
     });

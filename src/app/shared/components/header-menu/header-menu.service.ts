@@ -11,4 +11,15 @@ export class HeaderMenuService {
   loadMenu(): Observable<any> {
     return this._http.get(menu_datastruct);
   }
+
+  setSelected(data, url: string) {
+    if (!url) { return; }
+    _.forEach(data, (item) => {
+      if (_.startsWith(url, item.path)) {
+        item.selected = true;
+      } else {
+        item.selected = false;
+      }
+    });
+  }
 }

@@ -9,7 +9,7 @@
 				<li nz-menu-item *ngFor="let child of item.children" [nzSelected]="child.selected" [routerLink]="child.path">{{child.title}}</li>
 			</ul>
 		</li>
-		<li *ngIf="!item.children" [nzSelected]="item.selected" [routerLink]="item.path" nz-menu-item>
+		<li  *ngIf="!item.children" [nzSelected]="item.selected" [routerLink]="item.path" nz-menu-item>
 			<i class= {{item.icon}} aria-hidden="true"></i>
 			{{item.title | translate }}
 		</li>

@@ -5,7 +5,6 @@ import { MenuService } from '../shared/components/menu/menu.service';
     selector: 'layout-component',
     templateUrl: './layout.component.html',
     styleUrls: ['./layout.component.scss']
-    // providers: [MenuService]
 })
 
 export class LayoutComponent implements OnInit {

@@ -16,10 +16,12 @@ export class MenuService {
 
 
     setSelected(data, url: string) {
-        if (!url) { return; }
+        // if (!url) { return; }
         _.forEach(data, (item) => {
             item.selected = false;
         });
+        // console.log(_.find(data, function (o) { return o.path === url; }));
+        
         if (_.find(data, function (o) { return o.path === url; }) === undefined) {
             data[0].selected = true;
         } else {

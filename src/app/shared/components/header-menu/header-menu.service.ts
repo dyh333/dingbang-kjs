@@ -13,7 +13,7 @@ export class HeaderMenuService {
   }
 
   setSelected(data, url: string) {
-    if (!url) { return; }
+    // if (!url) { return; }
     _.forEach(data, (item) => {
       if (_.startsWith(url, item.path)) {
         item.selected = true;

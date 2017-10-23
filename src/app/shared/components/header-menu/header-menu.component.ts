@@ -21,6 +21,8 @@ export class HeaderMenuComponent implements OnInit {
         return;
       }
       this.selectedUrl = evt.url;
+      // console.log(this._menuData);
+      
       if (this._menuData) {
         this.service.setSelected(this._menuData, this.selectedUrl);
       }

@@ -25,9 +25,13 @@ export class MenuComponent implements OnInit, OnDestroy {
             }
 
             this.selectedUrl = evt.url;
-            if (this._menu) {
-                this.menuService.setSelected(this._menu, this.selectedUrl);
-            }
+            // console.log(this.selectedUrl );
+            console.log(evt );
+            console.log(this._menu );
+            
+            // if (this._menu) {
+            //     this.menuService.setSelected(this._menu, this.selectedUrl);
+            // }
         });
     }
 
@@ -35,6 +39,11 @@ export class MenuComponent implements OnInit, OnDestroy {
         this.menuService.loadMenu(this.menuUrl).subscribe({
             next: menu => {
                 this._menu = menu;
+                this.menuService.setSelected(this._menu, this.selectedUrl);
+                
+
+                // console.log(this._menu);
+                
             },
             error: error => {
                 console.log(error);

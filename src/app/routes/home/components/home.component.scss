@@ -35,24 +35,13 @@
     justify-content: center;
 }
 
-#img1{
-    background: url("./assets/img/home/index1.png") no-repeat center center;
-}
-#img2{
-    background: url("./assets/img/home/index2.png") no-repeat center center;
-}
-#img3{
-    background: url("./assets/img/home/index3.png") no-repeat center center;
-}
+
 .title{
     font-size: 1.5em;
     font-weight: bold;
     color: #333333;
 }
-// .title:hover{
-//     color: #838383;
-//     cursor: pointer;
-// }
+
 .para{
     white-space:normal; 
     width: 400px;
@@ -64,7 +53,3 @@
     color: #DB5A3D;
     font-weight: bold;
 }
-// .more:hover{
-//     color: #FA3103;
-//     cursor: pointer;
-// }

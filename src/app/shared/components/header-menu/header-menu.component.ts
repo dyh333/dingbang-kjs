@@ -31,6 +31,10 @@ export class HeaderMenuComponent implements OnInit {
     this.service.loadMenu().subscribe({
       next: (menuData) => {
         this._menuData = menuData;
+
+        if (this._menuData) {
+          this.service.setSelected(this._menuData, this.selectedUrl);
+        }
       }
     });
   }
